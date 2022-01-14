@@ -29,7 +29,7 @@ var prerender = module.exports = function(req, res, next) {
 
       if(prerenderedResponse){
         res.writeHead(prerenderedResponse.statusCode, prerenderedResponse.headers);
-        console.log(`pre-rendered response ${prerenderedResponse.statusCode} for: ${prerenderedResponse.headers['user-agent']}`);
+        console.log(`pre-rendered response ${prerenderedResponse.statusCode} for: ${req.headers['user-agent']}`);
         return res.end(prerenderedResponse.body);
       } else {
         next(err);
