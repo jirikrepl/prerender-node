@@ -1,13 +1,13 @@
 {
-  "name": "prerender-node",
-  "version": "3.4.0",
+  "name": "@jirkakrepl/prerender-node",
+  "version": "3.4.1",
   "description": "express middleware for serving prerendered javascript-rendered pages for SEO",
   "author": "Todd Hooper",
   "license": "MIT",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/prerender/prerender-node"
+    "url": "git://github.com/jirikrepl/prerender-node.git"
   },
   "keywords": [
     "angular",
@@ -23,5 +23,12 @@
   },
   "scripts": {
     "test": "echo 'Make sure to unset PRERENDER_SERVICE_URL when running locally' && ./node_modules/.bin/mocha"
+  },
+  "bugs": {
+    "url": "https://github.com/jirikrepl/prerender-node/issues"
+  },
+  "homepage": "https://github.com/jirikrepl/prerender-node#readme",
+  "directories": {
+    "test": "test"
   }
 }
