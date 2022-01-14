@@ -72,7 +72,8 @@ prerender.crawlerUserAgents = [
   'Bitrix link preview',
   'XING-contenttabreceiver',
   'Chrome-Lighthouse',
-  'TelegramBot'
+  'TelegramBot',
+  'SeznamBot',
 ];
 
 
